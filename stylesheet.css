@@ -408,8 +408,8 @@ li-title {
   background: #0012b1;
   display: block;
   transition: all 200ms 0s ease-in;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 
   /**グラデーションが合わなかったから追加しなかった
   background: linear-gradient(to right, rgb(255, 0, 64), pink);
