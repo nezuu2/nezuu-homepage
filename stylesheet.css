@@ -140,9 +140,6 @@ a.tabs-button:hover {
   box-shadow: 11px 0;
   padding: 0px 6.5px;
 }
-a.tabs-button:active {
-
-}
 a.tabs-button.black {
   color: rgba(158, 158, 158, 0.596);
 }
@@ -167,7 +164,6 @@ a.tabs-button.black:active {
 .footer-logo {
   font-size: 32px;
   float: left;
-
 }
 
 .footer-list {
@@ -486,6 +482,7 @@ a.btn--black:active {
   a.btn {
     font-size: 18px;
   }
+}
 
 a.btn2 {
   color: rgb(255, 255, 255);
