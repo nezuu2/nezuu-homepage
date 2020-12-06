@@ -388,7 +388,7 @@ gray-out {
 .board li {
   width: 500px;
   padding-bottom: 17px;
-  background: rgb(19 19 19);
+  background: rgb(230, 230, 230);
   margin: 5px auto;
   align-items: center;
   position: relative;
