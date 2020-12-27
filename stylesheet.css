@@ -92,8 +92,7 @@ li {
   color: white;
   border-color: gray;
   background: #111;
-  transition: all 200ms 0s ease-out;
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.301);
+  transition: all 300ms 0s ease-in-out;
 }
 
 nav {
@@ -401,6 +400,15 @@ gray-out {
   margin: auto;
 }
 
+.board img {
+  transition: all 200ms 0s ease;
+  cursor: pointer; 
+}
+
+.board img:active {
+  transform: rotateY(180deg);
+}
+
 li-title {
   font-size: 1.5rem;
   color: #dae5ff;
@@ -494,7 +502,7 @@ a.btn2 {
   border-bottom: 5px solid #000000;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
   text-decoration:none;
-  transition: all 300ms 0.01s ease-out;
+  transition: all 300ms 0s ease-out;
   padding: 0px 12px;
   border-radius: 10px 10px;
 }
@@ -508,7 +516,7 @@ a.btn2--black:hover {
 a.button {
   color: #fff;
   text-decoration:none;
-  transition: all 300ms 0.01s ease-out
+  transition: all 300ms 0s ease-out
 }
 a.button:hover {
   color: rgb(156 156 156);
