@@ -381,11 +381,14 @@ gray-out {
   position:relative;
 }
 
+.board ul {
+  display: inline-block;
+}
+
 .board li {
   width: 500px;
-  padding-bottom: 17px;
   background: rgb(230, 230, 230);
-  margin: 5px auto;
+  margin: 5px 2px;
   align-items: center;
   position: relative;
   right: 20px;
@@ -397,6 +400,7 @@ gray-out {
   color: black;
   margin: auto;
 }
+
 li-title {
   font-size: 1.5rem;
   color: #dae5ff;
