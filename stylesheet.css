@@ -411,22 +411,12 @@ gray-out {
 
 li-title {
   font-size: 1.5rem;
-  color: #dae5ff;
-  border-bottom: 3px solid #0059ff;
-  background: #0012b1;
+  color: #ffffff;
+  background: #0b64d8;
   display: block;
   transition: all 200ms 0s ease-in;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-
-  /**グラデーションが合わなかったから追加しなかった
-  background: linear-gradient(to right, rgb(255, 0, 64), pink);
-  **/
-}
-li-title:hover {
-  border-bottom: 3px solid #3f86f0;
-  color: #ffffff;
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.301);
 }
 
 .left-picture {
