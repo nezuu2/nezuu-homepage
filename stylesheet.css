@@ -569,6 +569,15 @@ a.button.twitter:hover {
   81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
   100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
 }
+a.button.category {
+  margin: auto;
+  background:#222222;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+}
+a.button.category:hover {
+  background: #000000;
+}
 
 .copy-right {
   text-decoration:none;
