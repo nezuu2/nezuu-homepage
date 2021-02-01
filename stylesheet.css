@@ -519,12 +519,55 @@ a.button.black {
   background: #2c2c2c;
   border-radius: 0px 0px 15px 15px;
   padding: 5px;
+  font-size: 1.3em;
 }
 a.button.black:hover {
   background: #000000;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.3em;
   padding: 5px;
+}
+a.button.twitter {
+  background: #00acee;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+}
+a.button.twitter:hover {
+  color: rgb(255, 255, 255);
+  font-size: 1.9rem;
+  border-radius: 30px;
+  display: block;
+}
+.shiny-btn1 {
+  display: block;
+  position: relative;
+  margin: 30px auto;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.shiny-btn1:hover {
+  color: #fff;
+}
+.shiny-btn1::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 3s ease-in-out infinite;
+}
+@-webkit-keyframes shiny-btn1 {
+  0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+  80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+  81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+  100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
 }
 
 .copy-right {
