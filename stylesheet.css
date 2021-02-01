@@ -518,6 +518,7 @@ a.button.black {
   color: rgb(151, 151, 151);
   background: #2c2c2c;
   border-radius: 0px 0px 15px 15px;
+  padding: 5px;
 }
 a.button.black:hover {
   background: #000000;
