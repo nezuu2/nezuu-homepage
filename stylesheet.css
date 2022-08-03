@@ -401,12 +401,19 @@ gray-out {
 }
 
 .board img {
-  transition: all 200ms 0s ease;
-  cursor: pointer; 
+  transition: all 490ms 0s ease;
+  cursor: pointer;
 }
 
 .board img:active {
   transform: rotateY(180deg);
+}
+
+.board .notrolling {
+  cursor: pointer;
+}
+.board .notrolling:active {
+  transform: rotateY(0deg);
 }
 
 li-title {
@@ -535,7 +542,6 @@ a.button.twitter {
 }
 a.button.twitter:hover {
   color: rgb(255, 255, 255);
-  font-size: 1.9rem;
   border-radius: 30px;
   display: block;
 }
